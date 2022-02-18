@@ -1,0 +1,157 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #111;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+img {
+    padding: 4px;
+    margin-top: 4px;
+    width: 110px;
+    text-align: left;
+    float: left;
+}
+
+a {
+    color: rgb(224, 224, 224);  
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+a:active {
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+#Titre {
+    background-color: rgb(223, 0, 0);
+    line-height: 8rem;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-right: 50px;
+}
+
+#Titre, a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+#main, #navigation {
+    padding: 10px;
+}
+
+#main {
+    width: 80%;
+    margin: 0px;
+    padding: 5% 0px 5% 20%;
+}
+
+#navigation {
+    background-color: rgb(39, 39, 39);
+    width: 15%;
+    height:fit-content;
+    float: left;
+}
+
+#navigation ul {
+    list-style: none;
+    padding-left: 8px;
+}
+
+#oeuvre {
+    font-size: 27px;
+    font-style: italic;
+}
+
+
+#find input {
+    font-size: 1.4rem;
+} 
+
+
+.Loupe {
+    float: center;
+}
+
+#pied {
+    font-size: 0.7rem;
+    padding-left: 20%;
+    
+}
+
+#pied dl {
+    text-align: left;
+    float: left;
+    width: 20%;
+    background-color: rgb(0, 0, 0);
+}
+
+#description, dd {
+    margin-bottom: 8px;
+}
+
+.boutonRating {
+    font-size: 1.2rem;
+    margin-left: 40px;
+}
+
+.boutonPlay {
+    font-size: 1.2rem;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.boutonListe {
+    font-size: 1rem;
+    margin-left: 40px;
+    margin-bottom: 8px;
+}
+
+#descimg {
+    padding: 4px;
+    margin-top: 4px;
+    width: 200px;
+    text-align: right;
+    float: right;
+    margin-right: 50px;
+}
+
+/* formulaires */
+
+form ul li label {
+    display: inline-block;
+    width: 200px;
+}
+form ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+form {
+    width: 80%;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 5% auto;
+}
+
+td, th {
+    border: 3px solid #000;
+    padding: 2px 2px 2px 10px;
+}
